@@ -8,7 +8,7 @@ import Register from './routes/register';
 import UserProfile from './routes/user_profile';
 import PrivateRoute from './components/private_route';
 import CreatePost from './routes/create_post';
-import Home from './routes/home';
+import Home from './routes/Home';
 import Search from './routes/search';
 import Settings from './routes/settings';
 
