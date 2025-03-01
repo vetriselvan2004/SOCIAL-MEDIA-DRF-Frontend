@@ -1,0 +1,63 @@
+/* Centering the Form */
+.container {
+    width: 50%;
+    max-width: 500px;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Form Styling */
+.settings-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Form Group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.form-group label{
+    color: rgb(255, 255, 255);
+}
+/* Input Fields */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+/* File Input */
+input[type="file"] {
+    border: none;
+    background: none;
+    color: white;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: gray;
+}
+.logout-btn{
+    margin-bottom:40px ;
+}

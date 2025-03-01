@@ -1,0 +1,1 @@
+export const SERVER_URL = 'https://social-media-drf-backend.onrender.com/api'
